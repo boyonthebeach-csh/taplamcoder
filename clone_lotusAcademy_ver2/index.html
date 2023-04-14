@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus Academy Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style/main.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img src="/clone_lotusAcademy_ver2/assets/images/logo_lotusAcademy.png" class="navbar__logo"></img>
+            <ul class="navbar__menu">
+                <li class="navbar__menu-item">
+                    <span>home</span>
+                </li>
+                
+                <li class="navbar__menu-item">
+                    <div>giới thiệu</div>
+                    <ul class="navbar__menu-item-submenu">
+                        <li class="navbar__menu-item-submenu-text">
+                            Về LTS Edu  
+                        </li>
+                        <li class="navbar__menu-item-submenu-text">
+                            Về LTS Group 
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="navbar__menu-item">
+                    <span>khóa học</span>
+                </li>
+                
+                <li class="navbar__menu-item">
+                    <span>team</span>
+                    <ul class="navbar__menu-item-submenu">
+                        <li class="navbar__menu-item-submenu-text">
+                            Đội ngũ chúng tôi 
+                        </li>
+                        <li class="navbar__menu-item-submenu-text">
+                            Ảnh học viên
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="navbar__menu-item">
+                    <span>blog</span>
+                </li>
+
+                <li class="navbar__menu-item">
+                    <span>liên hệ</span>
+                </li>
+            </ul>
+            <button class="navbar__button">đăng ký ngay</button>
+        </nav>
+
+        <header class="header">
+            <h3 class="header__sub-title">Băt đầu ngay hôm nay</h3>
+            <h1 class="header__title">Học lập trình từ con số 0</h1>
+            <div class="header__crossword">
+                <div class="header__crossword-block">
+                    <img src="./assets/images/header_icon_1.png" alt="clock" class="header__crossword-icon">
+                    <div class="header__crossword-context">
+                        <h3 class="header__crossword-title">Học cái cần</h3>
+                        <p class="header__crossword-sub-title">Không lãng phí thời gian</p>
+                    </div>
+                </div>
+
+                <div class="header__crossword-block">
+                    <img src="./assets/images/header_icon_2.png" alt="book" class="header__crossword-icon">
+                    <div class="header__crossword-context">
+                        <h3 class="header__crossword-title">Học cá nhân</h3>
+                        <p class="header__crossword-sub-title">Không có lớp học chung</p>
+                    </div>
+                </div>
+
+                <div class="header__crossword-block">
+                    <img src="./assets/images/header_icon_3.png" alt="save" class="header__crossword-icon">
+                    <div class="header__crossword-context">
+                        <h3 class="header__crossword-title">Học tiết kiệm</h3>
+                        <p class="header__crossword-sub-title">Không lãng phí tài chính</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="body">
+            <section class="about">
+                <h1 class="about__title">Tại sao lại chọn <span>chúng tôi?</span></h1>
+
+                <div class="about__content">
+                    <div class="about__intro">
+                        <div class="about__intro-content">
+                            <img src="./assets/images/about us.jpg" alt="about_us" class="about__intro-content-img">
+                        </div>
+                        <p class="about__intro-content-text">
+                            LTS Edu trực thuộc tập đoàn công nghệ LTS Group – Tiền thân là học viện lập trình được 
+                            thành lập từ năm 2004, đứng đầu bởi anh Nguyễn Đồng Khánh – CTO LTS Group kiêm CEO của 
+                            LTS Edu – ra đời với phương châm “ Ươm mầm tri thức, dẫn đường công nghệ”, đào tạo nguồn 
+                            nhân lực IT chất lượng cao, cung ứng cho thị trường công nghệ thông tin nói chung và tập 
+                            đoàn LTS GROUP nói riêng. <br>
+                            Chúng tôi tự tin là đơn vị được hàng ngàn học viên tin tưởng lựa chọn, hợp tác với nhiều 
+                            doanh nghiệp, cung ứng nhân sự cho nhiều đơn vị trong thị trường IT toàn Việt Nam.
+                        </p>
+                    </div>
+                    
+                    <div class="about__benefit">
+                        <div class="about__benefit-block">
+                            <div class="about__benefit-title">Cam kết công việc ngay sau khi tốt nghiệp</div>
+                            <div class="about__benefit-text">Chúng tôi cam kết giúp các học viên tìm được công việc phù 
+                            hợp với năng lực và chuyên môn ngay sau khi tốt nghiệp chỉ sau 4-6 tháng học tập.</div>
+                        </div>
+    
+                        <div class="about__benefit-block">
+                            <div class="about__benefit-title">Học 1:1 linh hoạt cùng giảng viên 5 năm kinh nghiệm</div>
+                            <div class="about__benefit-text">Khác với các mô hình đào tạo truyền thống hiện tại, với 
+                            hình thức học 1:1 cùng các mentor 5 năm kinh nghiệm tại LTS Edu, các kiến thức & kinh 
+                            nghiệm sẽ được truyền tải chi tiết nhất – đơn giản, dễ hiểu, giúp học viên vượt qua được 
+                            nỗi sợ “ngại hỏi”.</div>
+                        </div>
+    
+                        <div class="about__benefit-block">
+                            <div class="about__benefit-title">Mô hình đào tạo lập trình thực chiến</div>
+                            <div class="about__benefit-text">Với các giảng viên là các lập trình viên hiện đang công tác 
+                            trong những tập đoàn công nghệ, bài giảng được đúc kết từ 16 năm kinh nghiệm giảng dạy 
+                            của CEO Nguyễn Đồng Khánh cùng những dự án thực tế đang triển khai ngay tại LTS Group</div>
+                        </div>
+    
+                        <div class="about__benefit-block">
+                            <div class="about__benefit-title">Hệ thống e-learning độc quyền</div>
+                            <div class="about__benefit-text">Với hệ thống bài giảng trực tuyển E-Learning của LTS Edu, các 
+                            bạn có thể học kiến thức mọi lúc, mọi nơi, mọi thời gian mong muốn.</div>
+                        </div>  
+                    </div>
+                </div>
+
+                <button class="about__more">Tìm hiểu thêm về sự khác biệt của chúng tôi</button>
+            </section>
+        
+            <section class="category">
+                <h3 class="category__subtitle">Danh mục</h3>
+                <h1 class="category__title">Chương trình đào tạo</h1>
+                <div class="category__list">
+                    <div class="category__list-item">
+                        <img src="./assets/images/book.png" alt="book" class="category__list-item-icon">
+                        <div class="category__list-item-block">
+                            <div class="category__list-item-name">Full-stack Developer</div>
+                            <span>2 Khóa học</span>
+                        </div>
+                    </div>
+
+                    <div class="category__list-item">
+                        <img src="./assets/images/book.png" alt="book" class="category__list-item-icon">
+                        <div class="category__list-item-block">
+                            <div class="category__list-item-name">Back-end Developer</div>
+                            <span>2 Khóa học</span>
+                        </div>
+                    </div>
+
+                    <div class="category__list-item">
+                        <img src="./assets/images/book.png" alt="book" class="category__list-item-icon">
+                        <div class="category__list-item-block">
+                            <div class="category__list-item-name">Front-end Developer</div>
+                            <span>2 Khóa học</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="category__more">Xem thêm</button>
+            </section>
+
+            <section class="course">
+                <h3 class="course__subtitle">Khóa học</h3>
+                <h1 class="course__title">Khóa Học Phổ Biến</h1>
+                <div class="course__list">
+                    <div class="course__list-item">
+                        <div class="course__list-item-illustration">
+                            <div class="course__list-item-image course_one"></div>
+                            <div class="course__list-item-nameb">Full-stack Web Developer</div>
+                        </div>
+
+                        <div class="course__list-item-syllabus">
+                            <h3 class="course__list-item-syllabus-name">Full-stack Java Developer</h3>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 1: Cơ sở lập trình (20 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 2: Lập trình backend web (22 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 3: Thiết kế giao diện (17 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 4: Framwork UI (10 buổi)</p>
+                        </div>
+
+                        <div class="course__list-item-infor">
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-usd" aria-hidden="true"></i> Học phí</span>
+                                <span>Gói học phí từ 15.000.000đ</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa-regular fa-clock"></i> Thời gian học</span>
+                                <span>~ 28 tuần</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-user" aria-hidden="true"></i> Học viên</span>
+                                <span>854 đã học</span>
+                            </div>
+                            <button class="course__list-item--register">Đăng ký ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="course__list-item">
+                        <div class="course__list-item-illustration">
+                            <div class="course__list-item-image course_two"></div>
+                            <div class="course__list-item-nameb">Full-stack Web Developer</div>
+                        </div>
+
+                        <div class="course__list-item-syllabus">
+                            <h3 class="course__list-item-syllabus-name">Full-stack .NET Developer</h3>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 1: Cơ sở lập trình (20 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 2: Lập trình backend web (22 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Thiết kế giao diện (17 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Framwork UI (10 buổi)</p>
+                        </div>
+
+                        <div class="course__list-item-infor">
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-usd" aria-hidden="true"></i> Học phí</span>
+                                <span>Gói học phí từ 15.000.000đ</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa-regular fa-clock"></i></i> Thời gian học</span>
+                                <span>~ 28 tuần</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-user" aria-hidden="true"></i> Học viên</span>
+                                <span>854 đã học</span>
+                            </div>
+                            <button class="course__list-item--register">Đăng ký ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="course__list-item">
+                        <div class="course__list-item-illustration">
+                            <div class="course__list-item-image course_three"></div>
+                            <div class="course__list-item-nameb">Front-end Developer</div>
+                        </div>
+
+                        <div class="course__list-item-syllabus">
+                            <h3 class="course__list-item-syllabus-name">ReactJS</h3>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 1: Thiết kế giao diện (20 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 2: Framework UI (20 buổi)</p>
+                        </div>
+
+                        <div class="course__list-item-infor">
+                            <div class="course__list-item-price">
+                                <p><i class="fa fa-usd" aria-hidden="true"></i> Học phí</p>
+                                <p>Gói học phí từ 7.000.000đ</p>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <p><i class="fa-regular fa-clock"></i> Thời gian học</p>
+                                <p>~ 10 tuần</p>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-user" aria-hidden="true"></i> Học viên</span>
+                                <span>789 đã học</span>
+                            </div>
+                            <button class="course__list-item--register">Đăng ký ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="course__list-item">
+                        <div class="course__list-item-illustration">
+                            <div class="course__list-item-image course_four"></div>
+                            <div class="course__list-item-nameb">Back-end Developer</div>
+                        </div>
+
+                        <div class="course__list-item-syllabus">
+                            <h3 class="course__list-item-syllabus-name">.NET Developer</h3>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 1: Cơ sở lập trình (20 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 2: Lập trình backend web (22 buổi)</p>
+                        </div>
+
+                        <div class="course__list-item-infor">
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-usd" aria-hidden="true"></i> Học phí</span>
+                                <span>Gói học phí từ 8.000.000đ</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa-regular fa-clock"></i> Thời gian học</span>
+                                <span>~ 10 tuần</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-user" aria-hidden="true"></i> Học viên</span>
+                                <span>784 đã học</span>
+                            </div>
+                            <button class="course__list-item--register">Đăng ký ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="course__list-item">
+                        <div class="course__list-item-illustration">
+                            <div class="course__list-item-image course_five"></div>
+                            <div class="course__list-item-nameb">Front-end Developer</div>
+                        </div>
+
+                        <div class="course__list-item-syllabus">
+                            <h3 class="course__list-item-syllabus-name">VueJS</h3>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 1: Thiết kế giao diện (20 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 2: Framework UI (20 buổi)</p>
+                        </div>
+
+                        <div class="course__list-item-infor">
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-usd" aria-hidden="true"></i> Học phí</span>
+                                <span>Gói học phí từ 7.000.000đ</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa-regular fa-clock"></i> Thời gian học</span>
+                                <span>~ 10 tuần</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-user" aria-hidden="true"></i> Học viên</span>
+                                <span>504 đã học</span>
+                            </div>
+                            <button class="course__list-item--register">Đăng ký ngay</button>
+                        </div>
+                    </div>
+
+                    <div class="course__list-item">
+                        <div class="course__list-item-illustration">
+                            <div class="course__list-item-image course_six"></div>
+                            <div class="course__list-item-nameb">Back-end Developer</div>
+                        </div>
+
+                        <div class="course__list-item-syllabus">
+                            <h3 class="course__list-item-syllabus-name">Java Developer</h3>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 1: Cơ sở lập trình (20 buổi)</p>
+                            <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> Phần 2: Lập trình backend web (22 buổi)</p>
+                        </div>
+
+                        <div class="course__list-item-infor">
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-usd" aria-hidden="true"></i> Học phí</span>
+                                <span>Gói học phí từ 8.000.000đ</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa-regular fa-clock"></i> Thời gian học</span>
+                                <span>~ 10 tuần</span>
+                            </div>
+
+                            <div class="course__list-item-price">
+                                <span><i class="fa fa-user" aria-hidden="true"></i> Học viên</span>
+                                <span>502 đã học</span>
+                            </div>
+                            <button class="course__list-item--register">Đăng ký ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="course__more">Xem thêm</button>
+            </section>
+
+            <section class="why">
+                <div class="why__image"></div>
+                <div class="why__content">
+                    <h1 class="why__content-title">Vì sao chọn LTS Edu?</h1>
+                    <p class="why__content-text">
+                        a. Học 1:1 linh hoạt cùng giảng viên 5 năm kinh nghiệm Khác với các mô hình đào tạo 
+                        truyền thống hiện tại, Với hình thức học 1:1 cùng các mentor 5 năm kinh nghiệm tại 
+                        LTS Edu, các kiến thức & kinh nghiệm sẽ được truyền tải chi tiết nhất – đơn giản,
+                        dễ hiểu, giúp học viên vượt qua được nỗi sợ “ngại hỏi”. <br>
+                        b. Thời gian học linh hoạt cùng công nghệ E-Learning độc quyền LTS Edu Với hệ thống 
+                        bài giảng trực tuyển E-Learning của LTS Edu, các bạn có thể học kiến thức mọi lúc, 
+                        mọi nơi, mọi thời gian mong muốn. <br>
+                        c. Thực hành liên tục để cải thiện kĩ năng “Học thì phải đi đôi với Hành”. Tại LTS 
+                        Edu, việc thực hành chiếm phần lớn thời lượng của khóa học (Thực hành 80% - Lý thuyết 
+                        20%) nhằm mục đích cải thiện kĩ năng và tư duy lập trình của học viên qua các vô số 
+                        bài thực hành, bài kiểm tra đáp ứng nhu cầu thực tế của doanh nghiệp. <br>
+                        d. Cam kết CÔNG VIỆC ngay sau khi tốt nghiệp Chúng tôi cam kết giúp các học viên tìm 
+                        được công việc phù hợp với năng lực và chuyên môn ngay sau khi tốt nghiệp chỉ sau 4-6 
+                        tháng học tập. Bạn hoàn toàn có thể trở thành nhân viên chính thức của LTS Group cũng 
+                        như các tập đoàn công nghệ hàn đầu như FPT Software, Viettel, CMC… <br>
+                        f. Thực tập tại tập đoàn công nghệ LTS Group Vào cuối khóa học, học viên sẽ có thời 
+                        gian thực tập 1-2 tháng tại tập đoàn công nghệ LTS Group, được tận tay làm những dự án, 
+                        được anh chị em Dev - Junior/Senior – cung cấp những kiến thức, kĩ năng mà không trường 
+                        lớp nào dạy các bạn.
+                    </p>
+                    <button class="why__register">Đăng ký ngay</button>
+                </div>
+            </section>
+
+            <section class="share">
+                <h3 class="share__subtitle">Chia sẻ</h3>
+                <h1 class="share__title">Học Viên Nói Gì Về Chúng Tôi</h1>
+                <div class="share__review">
+                    <div id="share__review-block--1" class="share__review-block">
+                        <div class="share__review-block-item">
+                            <img src="./assets/images/quote-icon.png" alt="quotes" class="share__review-block-item-icon">
+                            <span class="share__review-block-item-text">
+                                Tại Lotus Academy học rất vui. Tớ và các bạn đã tiến bộ rất nhiều về kỹ năng, không chỉ 
+                                được học lập trình, chúng tớ còn được phát triển thêm nhiều về cả tư duy và kỹ năng mềm nữa.
+                            </span>
+                            <div class="share__review-block-item-author">
+                                <img src="./assets/images/avatar_1.jpg" alt="avatar" class="share__review-block-item-author-avatar">
+                                <p class="share__review-block-item-author-name">Huyền Trang</p>
+                                <span class="share__review-block-item-author-jobtitle">Sinh viên CNTT</span>
+                            </div>
+                        </div>
+
+                        <div class="share__review-block-item">
+                            <img src="./assets/images/quote-icon.png" alt="quotes" class="share__review-block-item-icon">
+                            <span class="share__review-block-item-text">
+                                Em thấy môi trường làm việc và học tập ở đây khá là tốt, sạch sẽ ngăn nắp, khá chuyên nghiệp. 
+                                Về mọi người, e thấy anh chị em trong quá trình học rất hòa đồng thân thiện, nhiệt tình giúp 
+                                đỡ lẫn nhau. Em khá hài lòng!
+                            </span>
+                            <div class="share__review-block-item-author">
+                                <img src="./assets/images/avatar_2.jpg" alt="avatar" class="share__review-block-item-author-avatar">
+                                <p class="share__review-block-item-author-name">Ngô Thiện</p>
+                                <span class="share__review-block-item-author-jobtitle">Sinh viên ngành kinh tế</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="share__review-block--2" class="share__review-block">
+                        <div class="share__review-block-item">
+                            <img src="./assets/images/quote-icon.png" alt="quotes" class="share__review-block-item-icon">
+                            <span class="share__review-block-item-text">
+                                Cuộc sống em đen như màn hình Console cho đến khi học ở Lotus Academy, tất nhiên nó vẫn 
+                                đen nhưng bắt đầu chạy chữ rồi.
+                            </span>
+                            <div class="share__review-block-item-author">
+                                <img src="./assets/images/avatar_3.jpg" alt="avatar" class="share__review-block-item-author-avatar">
+                                <p class="share__review-block-item-author-name">Nguyễn Đức Toàn</p>
+                                <span class="share__review-block-item-author-jobtitle">Team Leader</span>
+                            </div>
+                        </div>
+
+                        <div class="share__review-block-item">
+                            <img src="./assets/images/quote-icon.png" alt="quotes" class="share__review-block-item-icon">
+                            <span class="share__review-block-item-text">
+                                Mình phải cám ơn đội ngũ của Lotus Academy rất nhiều, đã dẫn dắt mình từ một sinh viên ham 
+                                chơi trở thành một người mê lập trình!
+                            </span>
+                            <div class="share__review-block-item-author">
+                                <img src="./assets/images/avatar_4.jpg" alt="avatar" class="share__review-block-item-author-avatar">
+                                <p class="share__review-block-item-author-name">Sỹ Hợp</p>
+                                <span class="share__review-block-item-author-jobtitle">Sinh viên ngành xây dựng</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="share__review-block--3" class="share__review-block">
+                        <div class="share__review-block-item">
+                            <img src="./assets/images/quote-icon.png" alt="quotes" class="share__review-block-item-icon">
+                            <span class="share__review-block-item-text">
+                                Hãy tin tưởng vào những gì bạn lựa chọn!
+                            </span>
+                            <div class="share__review-block-item-author">
+                                <img src="./assets/images/avatar_5.jpg" alt="avatar" class="share__review-block-item-author-avatar">
+                                <p class="share__review-block-item-author-name">Lương Minh</p>
+                                <span class="share__review-block-item-author-jobtitle">Sinh viên CNTT</span>
+                            </div>
+                        </div>
+
+                        <div class="share__review-block-item">
+                            <img src="./assets/images/quote-icon.png" alt="quotes" class="share__review-block-item-icon">
+                            <span class="share__review-block-item-text">
+                                Tại Lotus Academy học rất vui. Tớ và các bạn đã tiến bộ rất nhiều về kỹ năng, không chỉ được học lập 
+                                trình, chúng tớ còn được phát triển thêm nhiều về cả tư duy và kỹ năng mềm nữa.
+                            </span>
+                            <div class="share__review-block-item-author">
+                                <img src="./assets/images/avatar_6.jpg" alt="avatar" class="share__review-block-item-author-avatar">
+                                <p class="share__review-block-item-author-name">Trường Giang</p>
+                                <span class="share__review-block-item-author-jobtitle">Sinh viên CNTT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="share__review-block--4" class="share__review-block">
+                        <div class="share__review-block-item">
+                            <img src="./assets/images/quote-icon.png" alt="quotes" class="share__review-block-item-icon">
+                            <span class="share__review-block-item-text">
+                                Tại Lotus Academy học rất vui. Tớ và các bạn đã tiến bộ rất nhiều về kỹ năng, không chỉ được học lập 
+                                trình, chúng tớ còn được phát triển thêm nhiều về cả tư duy và kỹ năng mềm nữa.
+                            </span>
+                            <div class="share__review-block-item-author">
+                                <img src="./assets/images/avatar_7.jpg" alt="avatar" class="share__review-block-item-author-avatar">
+                                <p class="share__review-block-item-author-name">Trường Giang</p>
+                                <span class="share__review-block-item-author-jobtitle">Sinh viên CNTT</span>
+                            </div>
+                        </div>
+
+                        <div class="share__review-block-item">
+                            <img src="./assets/images/quote-icon.png" alt="quotes" class="share__review-block-item-icon">
+                            <span class="share__review-block-item-text">
+                                Đây là nơi là mọi người có thể tự do phát triển tư duy cá nhân, có cơ hôi học tập và làm việc trong 
+                                môi trường năng động, sáng tạo!
+                            </span>
+                            <div class="share__review-block-item-author">
+                                <img src="./assets/images/avatar_1.jpg" alt="avatar" class="share__review-block-item-author-avatar">
+                                <p class="share__review-block-item-author-name">Huyền Trang</p>
+                                <span class="share__review-block-item-author-jobtitle">Sinh viên CNTT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="share__review-nav">
+                    <a href="#share__review-block--1" class="share__review-nav-button"></a>
+                    <a href="#share__review-block--2" class="share__review-nav-button"></a>
+                    <a href="#share__review-block--3" class="share__review-nav-button"></a>
+                    <a href="#share__review-block--4" class="share__review-nav-button"></a>
+                </div>
+            </section>
+            
+            <section class="achievement">
+                <div class="achievement__item">
+                    <h2 class="achievement__item-title">10000+</h2>
+                    <h3 class="achievement__item-subtitle">Học viên</h3>
+                </div>
+
+                <div class="achievement__item">
+                    <h2 class="achievement__item-title">16++</h2>
+                    <h3 class="achievement__item-subtitle">Năm giảng dạy</h3>
+                </div>
+
+                <div class="achievement__item">
+                    <h2 class="achievement__item-title">10</h2>
+                    <h3 class="achievement__item-subtitle">Học viên hiện là chủ doanh nghiệp, ceo</h3>
+                </div>
+
+                <div class="achievement__item">
+                    <h2 class="achievement__item-title">5000++</h2>
+                    <h3 class="achievement__item-subtitle">Developer, test, qa, designer, ba với mức lương rất cao</h3>
+                </div>
+            </section>
+
+            <section class="news">
+                <h3 class="news__subtitle">News</h3>
+                <h1 class="news__title">Bài viết mới nhất</h1>
+                <div class="news__list">
+                    <div class="news__list-item">
+                        <div class="news__list-item-thumbnail thumbnail__one"></div>
+                        <div class="news__list-item-content">
+                            <p class="news__list-item-infor">
+                                <span><i class="fa-regular fa-user"></i> Admin</span>
+                                <span><i class="fa-regular fa-calendar-days"></i> 13/10/2020 11:11</span>
+                            </p>
+                            <h3 class="news__list-item-title">Bài 20 - Best Practices</h3>
+                            <p class="news__list-item-context">
+                                Trong chương này, chúng tôi sẽ liệt kê các phương pháp, phương pháp và kỹ 
+                                thuật React hay nhất sẽ giúp chúng tôi luôn nhất quán trong quá trình phát 
+                                triển ứng dụng.
+                            </p>
+                            <p class="news__list-item-category">
+                                <span><i class="fa-solid fa-book"></i> ReactJS</span>
+                                <span>Đọc tiếp <i class="fa-solid fa-angle-right"></i></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="news__list-item">
+                        <div class="news__list-item-thumbnail thumbnail__two"></div>
+                        <div class="news__list-item-content">
+                            <p class="news__list-item-infor">
+                                <span><i class="fa-regular fa-user"></i> Admin</span>
+                                <span><i class="fa-regular fa-calendar-days"></i> 13/10/2020 11:11</span>
+                            </p>
+                            <h3 class="news__list-item-title">Bài 19 - Các component thứ tự cao hơn</h3>
+                            <p class="news__list-item-context">
+                                Các component bậc cao hơn là các hàm JavaScript được sử dụng để thêm các chức 
+                                năng bổ sung vào component hiện có. Các hàm này thuần túy , có nghĩa là chúng 
+                                đang nhận dữ liệu và trả về các giá trị theo dữ liệu đó.
+                            </p>
+                            <p class="news__list-item-category">
+                                <span><i class="fa-solid fa-book"></i> ReactJS</span>
+                                <span>Đọc tiếp <i class="fa-solid fa-angle-right"></i></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="news__list-item">
+                        <div class="news__list-item-thumbnail thumbnail__three"></div>
+                        <div class="news__list-item-content">
+                            <p class="news__list-item-infor">
+                                <span><i class="fa-regular fa-user"></i> Admin</span>
+                                <span><i class="fa-regular fa-calendar-days"></i> 13/10/2020 11:11</span>
+                            </p>
+                            <h3 class="news__list-item-title">Bài 18 - Animations trong ReactJS</h3>
+                            <p class="news__list-item-context">
+                                Trong chương này, chúng ta sẽ học cách tạo hoạt ảnh cho các phần tử bằng React.
+                            </p>
+                            <p class="news__list-item-category">
+                                <span><i class="fa-solid fa-book"></i> ReactJS</span>
+                                <span>Đọc tiếp <i class="fa-solid fa-angle-right"></i></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__list">
+                <div class="footer__list-item">
+                    <img src="./assets/images/logo_white.png" alt="lotus_logo" class="footer__list-item-logo">
+                    <span class="footer__list-item-social">
+                        <i class="fa-brands fa-facebook"></i> 
+                        <i class="fa-brands fa-google-plus"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </span>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLTSEduDev%2F&amp;
+                    tabs=timeline&amp;width=250&amp;height=100&amp;small_header=false&amp;adapt_container_width=true&amp;
+                    hide_cover=false&amp;show_facepile=true&amp;appId" width="250" height="100" style="border:none;overflow:hidden" 
+                    scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; 
+                    picture-in-picture; web-share" class = "footer__list-item-fb"></iframe>
+                </div>
+
+                <div class="footer__list-item">
+                    <h3 class="footer__list-item-title">ĐỊA CHỈ</h3>
+                    <ul class="footer__list-item-content--special">
+                        <li class="footer__list-item-content--special-item">
+                            <i class="fa-solid fa-map-location-dot footer__icon"></i>
+                            <p class="desc">
+                                Tầng 3 - Số 30 - Ngõ 304 Hồ Tùng Mậu - Cầu Giấy - Hà Nội
+                            </p>
+                        </li>
+                        <li class="footer__list-item-content--special-item">
+                            <i class="fa-solid fa-phone-volume footer__icon"></i>
+                            <a class="desc" href="tel: (+84) 363 376 262">(+84) 363 376 262</a>
+                        </li>
+                        <li class="footer__list-item-content--special-item">
+                            <i class="fa-regular fa-envelope footer__icon"></i>
+                            <a class="desc" href="mailto:tuyensinh@lotusacademy.edu.vn">tuyensinh@lotusacademy.edu.vn</fontsninja-text></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__list-item">
+                    <h3 class="footer__list-item-title">KHÓA HỌC</h3>
+                    <ul class="footer__list-item-content">
+                        <li class="footer__list-item-content-item">Full-stack Web Developer</li>
+                        <li class="footer__list-item-content-item">Back-end Developer</li>
+                        <li class="footer__list-item-content-item">Front-end Developer</li>
+                    </ul>
+                </div>
+
+                <div class="footer__list-item">
+                    <h3 class="footer__list-item-title">KHÁM PHÁ</h3>
+                    <ul class="footer__list-item-content">
+                        <li class="footer__list-item-content-item">Blog</li>
+                        <li class="footer__list-item-content-item">Team</li>
+                        <li class="footer__list-item-content-item">Ảnh học viên</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <span class="footer__copyright-text">
+                    © Lotus Academy. All Rights Reserved 2023
+                </span>
+                <ul class="footer__copyright-list">
+                    <li class="footer__copyright-list-item">
+                        Terms
+                    </li>
+                    <li class="footer__copyright-list-item">
+                        Privacy Policy
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <a href="#" class="nav__top"><i class="fa-solid fa-angle-up"></i></i></a>
+    </div>
+</body>
+</html>
